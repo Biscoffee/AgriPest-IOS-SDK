@@ -2,14 +2,14 @@
 
 这是 AgriPest 系统的官方 iOS (Objective-C) 客户端 SDK。
 
-## 当前版本: 1.0.6
+## 当前版本: 1.0.7
 
 ## 快速开始
 
 ### 1. 添加依赖 (CocoaPods)
 在您的 `Podfile` 中添加：
 ```ruby
-pod 'AgriPestClient', :git => 'git@github.com:lukecc00/AgriPest-IOS-SDK.git', :tag => 'v1.0.6'
+pod 'AgriPestClient', :git => 'git@github.com:lukecc00/AgriPest-IOS-SDK.git', :tag => 'v1.0.7'
 ```
 
 ### 2. 使用

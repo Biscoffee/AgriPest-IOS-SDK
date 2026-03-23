@@ -15,7 +15,7 @@
 */
 
 
-static NSString * const kAGAPIVersion = @"1.0.6";
+static NSString * const kAGAPIVersion = @"1.0.7";
 
 @protocol AGConfiguration <NSObject>
 

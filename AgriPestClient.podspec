@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = "AgriPestClient"
-    s.version          = "1.0.6"
+    s.version          = "1.0.7"
 
     s.summary          = "Agri-Pest-Server API"
     s.description      = <<-DESC

@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 AgriPestClient.podspec
 AgriPestClient/Api/AGAdminUserPanelApi.h
 AgriPestClient/Api/AGAdminUserPanelApi.m
