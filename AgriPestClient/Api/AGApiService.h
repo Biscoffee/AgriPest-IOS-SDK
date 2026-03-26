@@ -560,7 +560,7 @@ extern NSInteger kAGApiServiceMissingParamErrorCode;
 ///  code:200 message:"OK"
 ///
 /// @return AGResultMultipartUploadInitResponse*
--(NSURLSessionTask*) initMultipartUploadWithMultipartUploadInitRequest: (AGMultipartUploadInitRequest*) multipartUploadInitRequest
+-(NSURLSessionTask*) beginMultipartUploadWithMultipartUploadInitRequest: (AGMultipartUploadInitRequest*) multipartUploadInitRequest
     completionHandler: (void (^)(AGResultMultipartUploadInitResponse* output, NSError* error)) handler;
 
 

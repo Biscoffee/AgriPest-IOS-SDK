@@ -2265,7 +2265,7 @@ NSInteger kAGApiServiceMissingParamErrorCode = 234513;
 ///
 ///  @returns AGResultMultipartUploadInitResponse*
 ///
--(NSURLSessionTask*) initMultipartUploadWithMultipartUploadInitRequest: (AGMultipartUploadInitRequest*) multipartUploadInitRequest
+-(NSURLSessionTask*) beginMultipartUploadWithMultipartUploadInitRequest: (AGMultipartUploadInitRequest*) multipartUploadInitRequest
     completionHandler: (void (^)(AGResultMultipartUploadInitResponse* output, NSError* error)) handler {
     // verify the required parameter 'multipartUploadInitRequest' is set
     if (multipartUploadInitRequest == nil) {
