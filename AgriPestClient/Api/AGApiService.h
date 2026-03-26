@@ -57,7 +57,7 @@
 extern NSString* kAGApiServiceErrorDomain;
 extern NSInteger kAGApiServiceMissingParamErrorCode;
 
--(instancetype) initWithApiClient:(AGApiClient *)apiClient NS_DESIGNATED_INITIALIZER;
+-(instancetype) initWithApiClient:(AGApiClient *)apiClient;
 
 /// 发表评论
 /// 
