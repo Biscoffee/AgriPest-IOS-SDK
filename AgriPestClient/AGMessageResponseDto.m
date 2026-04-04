@@ -17,7 +17,7 @@
  * This method is used by `JSONModel`.
  */
 + (JSONKeyMapper *)keyMapper {
-  return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{ @"_id": @"id", @"type": @"type", @"title": @"title", @"content": @"content", @"senderId": @"senderId", @"senderName": @"senderName", @"senderUsername": @"senderUsername", @"senderAvatar": @"senderAvatar", @"postId": @"postId", @"isRead": @"isRead", @"createdAt": @"createdAt" }];
+  return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{ @"_id": @"id", @"type": @"type", @"title": @"title", @"content": @"content", @"senderId": @"senderId", @"senderName": @"senderName", @"senderUsername": @"senderUsername", @"senderAvatar": @"senderAvatar", @"postId": @"postId", @"isRead": @"isRead", @"createdAt": @"createdAt", @"postImageUrl": @"postImageUrl" }];
 }
 
 /**
@@ -27,7 +27,7 @@
  */
 + (BOOL)propertyIsOptional:(NSString *)propertyName {
 
-  NSArray *optionalProperties = @[@"_id", @"type", @"title", @"content", @"senderId", @"senderName", @"senderUsername", @"senderAvatar", @"postId", @"isRead", @"createdAt"];
+  NSArray *optionalProperties = @[@"_id", @"type", @"title", @"content", @"senderId", @"senderName", @"senderUsername", @"senderAvatar", @"postId", @"isRead", @"createdAt", @"postImageUrl"];
   return [optionalProperties containsObject:propertyName];
 }
 

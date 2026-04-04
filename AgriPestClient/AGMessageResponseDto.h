@@ -56,4 +56,8 @@
  */
 @property(nonatomic) NSDate* createdAt;
 
+/* 关联帖子的封面图URL [optional]
+ */
+@property(nonatomic) NSString* postImageUrl;
+
 @end
